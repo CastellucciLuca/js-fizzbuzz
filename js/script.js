@@ -14,15 +14,20 @@ let fizzNumber = document.getElementById("fizzNumber")
 //FIRST IF Numbers that are multiples of 3 and 5
 //FIRST ELSE IF multiples of 5
 //SECOND ELSE IF multiples of 3
-for (let i = 0; i <= 100; i++) {
+for (let i = 1; i <= 99; i++) {
+
     if (i % 15 === 0){
         console.log("fizzBuzz")
+        fizzBuzz.append("FizzBuzzz")
     } else if (i % 5 === 0) {
         console.log("buzz")
+        buzz.append("Buzzz")
     } else if (i % 3 === 0) {
         console.log("fizz")
+        fizz.append("Fizzz")
     } else {
         console.log(i)
+        fizzNumber.append(i)
     }
 
 }
