@@ -4,13 +4,13 @@
 }
 #buzz{
     background-color: blue;
-    color: white;
+    color: rgb(255, 136, 0);
 }
 #fizzBuzz{
     background-color: brown;
-    color: white;
+    color: greenyellow;
 }
 #fizzNumber{
     background-color: cadetblue;
-    color: white;
+    color: chartreuse;
 }
