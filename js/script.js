@@ -3,7 +3,7 @@
 //Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 //Per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz”.
 
-//Let
+//LET
 let fizz = document.getElementById("fizz")
 
 let buzz = document.getElementById("buzz")
@@ -11,7 +11,6 @@ let buzz = document.getElementById("buzz")
 let fizzBuzz = document.getElementById("fizzBuzz")
 
 let fizzNumber = document.getElementById("fizzNumber")
-
 //FIRST IF Numbers that are multiples of 3 and 5
 //FIRST ELSE IF multiples of 5
 //SECOND ELSE IF multiples of 3
